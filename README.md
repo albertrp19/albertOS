@@ -1,51 +1,51 @@
 # AlbertOS
 
-**AlbertOS** es un proyecto de sistema operativo minimalista en sus primeras etapas de desarrollo. Actualmente, su única funcionalidad es recibir un texto del usuario y devolverlo en pantalla. Este proyecto está construido utilizando el framework [COSMOS](https://github.com/CosmosOS/Cosmos), que permite crear sistemas operativos en C# y .NET.
+**AlbertOS** és un projecte de sistema operatiu minimalista en les seves primeres etapes de desenvolupament. Actualment, la seva única funcionalitat és rebre un text de l'usuari i tornar-lo a mostrar a la pantalla. Aquest projecte està construït utilitzant el framework [COSMOS](https://github.com/CosmosOS/Cosmos), que permet crear sistemes operatius en C# i .NET.
 
-## Características
+## Característiques
 
-En su estado actual, AlbertOS incluye las siguientes funciones básicas:
+En el seu estat actual, AlbertOS inclou les següents funcions bàsiques:
 
-- **Entrada de texto**: El sistema recibe una cadena de texto del usuario.
-- **Salida de texto**: El sistema imprime de vuelta la misma cadena en la pantalla.
+- **Entrada de text**: El sistema rep una cadena de text de l'usuari.
+- **Sortida de text**: El sistema imprimeix de nou la mateixa cadena a la pantalla.
 
-Este proyecto está diseñado como una base para futuras mejoras, donde se irán añadiendo más características de un sistema operativo real.
+Aquest projecte està dissenyat com una base per a futures millores, on s'aniran afegint més característiques d'un sistema operatiu real.
 
-## Requisitos
+## Requisits
 
-Para compilar y ejecutar **AlbertOS**, necesitarás:
+Per compilar i executar **AlbertOS**, necessitaràs:
 
 - [Visual Studio 2022](https://visualstudio.microsoft.com/)
-- Extensión de [COSMOS](https://github.com/CosmosOS/Cosmos) instalada en Visual Studio
-- Un emulador de máquina virtual como **Bochs** o **VMWare Player** para pruebas
+- Extensió de [COSMOS](https://github.com/CosmosOS/Cosmos) instal·lada a Visual Studio
+- Un emulador de màquina virtual com **Bochs** o **VMWare Player** per a les proves
 
-### Instalación de COSMOS
+### Instal·lació de COSMOS
 
-1. **Descargar COSMOS**: Instala la extensión de COSMOS desde el [sitio oficial](https://cosmosos.github.io/) o desde Visual Studio Marketplace.
-2. **Configurar Visual Studio**: Asegúrate de tener el SDK de .NET configurado.
+1. **Descarregar COSMOS**: Instal·la l'extensió de COSMOS des del [lloc oficial](https://cosmosos.github.io/) o des del Visual Studio Marketplace.
+2. **Configurar Visual Studio**: Assegura't de tenir el SDK de .NET configurat.
 
-## Compilar y Ejecutar
+## Compilar i Executar
 
-Sigue estos pasos para compilar y ejecutar **AlbertOS**:
+Segueix aquests passos per compilar i executar **AlbertOS**:
 
-1. Clona este repositorio:
+1. Clona aquest repositori:
     ```bash
-    git clone https://github.com/tu-usuario/AlbertOS.git
+    git clone https://github.com/tu-usuari/AlbertOS.git
     cd AlbertOS
     ```
 
-2. Abre el proyecto en **Visual Studio**.
+2. Obre el projecte a **Visual Studio**.
 
-3. Haz clic derecho sobre el proyecto y selecciona `Run in Cosmos`.
+3. Fes clic amb el botó dret sobre el projecte i selecciona `Run in Cosmos`.
 
-4. Selecciona el emulador que prefieras (Bochs o VMWare) para ejecutar **AlbertOS**.
+4. Selecciona l'emulador que prefereixis (Bochs o VMWare) per executar **AlbertOS**.
 
-## Cómo Funciona
+## Com Funciona
 
-Una vez que AlbertOS esté ejecutándose:
+Un cop **AlbertOS** estigui en funcionament:
 
-1. **Entrada**: Ingresa un texto en la consola.
-2. **Salida**: El sistema imprimirá de vuelta el mismo texto.
+1. **Entrada**: Introdueix un text a la consola.
+2. **Sortida**: El sistema imprimirà de nou el mateix text.
 
-### Ejemplo:
+### Exemple:
 

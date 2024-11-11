@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Use VMware Player or Workstation to deploy and debug.")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6f0085f1e75db987a04e0a64b70598dd0936bbe6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e8c0d160b27f8d19ecbff0c5b91affa889141199")]
 [assembly: System.Reflection.AssemblyProductAttribute("AlbertOS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AlbertOS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
